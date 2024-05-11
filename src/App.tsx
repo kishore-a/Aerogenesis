@@ -4,7 +4,6 @@ import { Amplify } from "aws-amplify";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import type { WithAuthenticatorProps } from "@aws-amplify/ui-react";
 import { withAuthenticator } from "@aws-amplify/ui-react";
-import "@aws-amplify/ui-react/styles.css";
 import config from "./amplifyconfiguration.json";
 import PhotoUpload from "./pages/photoupload";
 import ContactPage from "./pages/contactform";
