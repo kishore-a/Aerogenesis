@@ -40,7 +40,7 @@ const ImageUploadComponent: React.FC = () => {
         formData.append('file', file);
 
         try {
-            const result = await axios.post<ApiResponse>('http://3.101.27.195/predict', formData, {
+            const result = await axios.post<ApiResponse>('http://13.57.242.175/predict', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }
