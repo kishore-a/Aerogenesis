@@ -3,7 +3,7 @@
 
   
 
-Welcome to the official repository of Aerogenesis, the leading mobile app for early detection of pneumonia. Designed with precision and user-friendliness, Aerogenesis uses advanced algorithms to analyze respiratory symptoms and provide timely results.
+Welcome to the official repository of Aerogenesis, the leading Web app for early detection of pneumonia. Designed with precision and user-friendliness, Aerogenesis uses advanced algorithms to analyze respiratory symptoms and provide timely results.
 
   
 
@@ -15,9 +15,10 @@ Welcome to the official repository of Aerogenesis, the leading mobile app for ea
 
 - [Features](#features)
 
-- [Installation](#installation)
 
 - [How to Use](#how-to-use)
+
+- [Website](#Website-Link)
 
 - [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
 
@@ -65,13 +66,16 @@ Pneumonia is a serious health condition that requires immediate attention and ac
 
 2.  **Create an Account:** Open the app and sign up with your email or phone number.
 
-3.  **Enter Your Symptoms:** Input any symptoms you are experiencing through the user-friendly interface.
+3.  **Upload photo:** Upload the photo through the user-friendly interface.
 
-4.  **Receive Your Analysis:** The app will analyze the input and give you a report on your respiratory health.
+4.  **Receive Your Analysis:** The app will analyze the input and give you a report on your Pneumonia.
 
 5.  **Follow Up:** Based on the results, consult healthcare providers if necessary.
 
-  
+## Website Link
+    https://aerogenesis.vercel.app/
+
+
 
 ## Frequently Asked Questions (FAQ)
 
@@ -81,7 +85,7 @@ Pneumonia is a serious health condition that requires immediate attention and ac
 
   
 
-A: Yes, Aerogenesis is free for basic features. Premium features require a subscription.
+A: Yes, Aerogenesis is free for basic features.
 
   
 
@@ -105,7 +109,7 @@ A: Currently, Aerogenesis is optimized for pneumonia detection but we are consta
 
   
 
-For support, please email [support@aerogenesis.com](mailto:support@aerogenesis.com) or visit our [support page](#).
+For support, please email [a.kishore.shankar.2000@gmail.com].
 
   
 
