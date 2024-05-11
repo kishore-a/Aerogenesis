@@ -34,7 +34,7 @@ const HomeDesc = () => {
                     color: "#4A4A90"
                 }}>
                     Pneumonia is a condition that requires timely diagnosis to ensure effective treatment.
-                    Aerogenesis revolutionizes the way pneumonia is detected, offering a fast, accurate, and non-invasive solution right at your fingertips.
+                    Aerogenesis revolutionizes the way pneumonia is detected, offering a fast, accurate, and non-invasive solution right at your fingertips. -
                 </div>
             </div>
         </div>
