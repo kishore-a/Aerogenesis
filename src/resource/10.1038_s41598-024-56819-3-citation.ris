@@ -1,0 +1,16 @@
+TY  - JOUR
+AU  - Yoon, Taeyoung
+AU  - Kang, Daesung
+PY  - 2024
+DA  - 2024/03/14
+TI  - Enhancing pediatric pneumonia diagnosis through masked autoencoders
+JO  - Scientific Reports
+SP  - 6150
+VL  - 14
+IS  - 1
+AB  - Pneumonia, an inflammatory lung condition primarily triggered by bacteria, viruses, or fungi, presents distinctive challenges in pediatric cases due to the unique characteristics of the respiratory system and the potential for rapid deterioration. Timely diagnosis is crucial, particularly in children under 5, who have immature immune systems, making them more susceptible to pneumonia. While chest X-rays are indispensable for diagnosis, challenges arise from subtle radiographic findings, varied clinical presentations, and the subjectivity of interpretations, especially in pediatric cases. Deep learning, particularly transfer learning, has shown promise in improving pneumonia diagnosis by leveraging large labeled datasets. However, the scarcity of labeled data for pediatric chest X-rays presents a hurdle in effective model training. To address this challenge, we explore the potential of self-supervised learning, focusing on the Masked Autoencoder (MAE). By pretraining the MAE model on adult chest X-ray images and fine-tuning the pretrained model on a pediatric pneumonia chest X-ray dataset, we aim to overcome data scarcity issues and enhance diagnostic accuracy for pediatric pneumonia. The proposed approach demonstrated competitive performance an AUC of 0.996 and an accuracy of 95.89% in distinguishing between normal and pneumonia. Additionally, the approach exhibited high AUC values (normal: 0.997, bacterial pneumonia: 0.983, viral pneumonia: 0.956) and an accuracy of 93.86% in classifying normal, bacterial pneumonia, and viral pneumonia. This study also investigated the impact of different masking ratios during pretraining and explored the labeled data efficiency of the MAE model, presenting enhanced diagnostic capabilities for pediatric pneumonia.
+SN  - 2045-2322
+UR  - https://doi.org/10.1038/s41598-024-56819-3
+DO  - 10.1038/s41598-024-56819-3
+ID  - Yoon2024
+ER  - 

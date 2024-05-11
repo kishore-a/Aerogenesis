@@ -4,12 +4,19 @@ import { Amplify } from "aws-amplify";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import type { WithAuthenticatorProps } from "@aws-amplify/ui-react";
 import { withAuthenticator } from "@aws-amplify/ui-react";
+import "@aws-amplify/ui-react/styles.css";
 import config from "./amplifyconfiguration.json";
 import PhotoUpload from "./pages/photoupload";
 import ContactPage from "./pages/contactform";
 import Aboutpage from "./pages/Aboutpage";
 Amplify.configure(config);
-
+const style = {
+  height: "100vh", // Full height of the viewport
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  background: "linear-gradient(to right, #ff7e5f, #feb47b)" // Gradient from pink to orange
+};
 function App({ signOut, user }: WithAuthenticatorProps) {
   return (
     <div >
