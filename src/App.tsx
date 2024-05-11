@@ -10,13 +10,7 @@ import PhotoUpload from "./pages/photoupload";
 import ContactPage from "./pages/contactform";
 import Aboutpage from "./pages/Aboutpage";
 Amplify.configure(config);
-const style = {
-  height: "100vh", // Full height of the viewport
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  background: "linear-gradient(to right, #ff7e5f, #feb47b)" // Gradient from pink to orange
-};
+
 function App({ signOut, user }: WithAuthenticatorProps) {
   return (
     <div >
